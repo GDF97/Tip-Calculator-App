@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <h1 class="title">
+      Spli
+      <br />
+      tter
+    </h1>
+    <main class="app">
+      <article class="appWrapper">
+        <section class="leftSection">
+          <div class="inputWrapper">
+            <label for="">Bill</label>
+            <input type="number" placeholder="0" / id="billInput" step="0.01">
+          </div>
+          <div class="buttonsDiv">
+            <h2>Selec Tip %</h2>
+            <div class="buttonsWrapper">
+              <button class="porcent" value="0.05">5%</button>
+              <button class="porcent" value="0.10">10%</button>
+              <button class="porcent" value="0.15">15%</button>
+              <button class="porcent" value="0.25">25%</button>
+              <button class="porcent" value="0.50">50%</button>
+            </div>
+          </div>
+          <div class="inputWrapper">
+            <label for="">Number of People</label>
+            <input type="number" placeholder="0" id="peopleInput" />
+          </div>
+        </section>
+        <section class="rightSection">
+          <div class="tipPerson">
+            <p>
+              <strong>Tip Amount</strong> <br />
+              / person
+            </p>
+            <h3 id="tipAmount">$0.00</h3>
+          </div>
+          <div class="totalAmount">
+            <p>
+              <strong>Total</strong> <br />
+              / person
+            </p>
+            <h3 id="totalAmount">$0.00</h3>
+          </div>
+          <button id="btnCalc">Calculate</button>
+          <button id="btnReset">Reset</button>
+        </section>
+      </article>
+    </main>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
+
+<!--
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+ -->
